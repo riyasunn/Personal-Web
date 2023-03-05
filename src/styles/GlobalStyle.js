@@ -261,7 +261,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--brown);
     }
 
     &.inline-link {
@@ -383,9 +383,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  #logo {
-    color: var(--green);
-  }
 
   .overline {
     color: var(--green);
