@@ -74,8 +74,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
-    color: var(--slate);
+    background-color: var(--light-yellow);
+    color: var(--light-black);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
     line-height: 1.3;
@@ -165,7 +165,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 10px 0;
     font-weight: 600;
-    color: var(--lightest-slate);
+    color: var(--light-black);
     line-height: 1.1;
   }
 
@@ -292,6 +292,7 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     margin: 0 0 15px 0;
+    color: var(--black);
 
     &:last-child,
     &:last-of-type {

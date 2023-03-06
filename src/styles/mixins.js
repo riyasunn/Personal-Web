@@ -1,9 +1,9 @@
 import { css } from 'styled-components';
 
 const button = css`
-  color: var(--green);
+  color: var(--yellow);
   background-color: transparent;
-  border: 1px solid var(--green);
+  border: 1px solid var(--yellow);
   border-radius: var(--border-radius);
   font-size: var(--fz-xs);
   font-family: var(--font-mono);
@@ -16,7 +16,7 @@ const button = css`
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--green-tint);
+    background-color: var(--brown);
     outline: none;
   }
   &:after {
@@ -111,13 +111,14 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: var(--green);
+    color: var(--purple);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 3px solid var(--purple);
     border-radius: var(--border-radius);
     padding: 1.25rem 1.75rem;
     font-size: var(--fz-sm);
     font-family: var(--font-mono);
+    font-weight: 600;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
@@ -125,7 +126,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--green-tint);
+      background-color: #edd3ed;
       outline: none;
     }
     &:after {

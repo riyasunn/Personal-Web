@@ -11,15 +11,19 @@ const variables = css`
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
+    --white: #ffffff;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
-    --pink: #f57dff;
+    --pink: #e9a1b9;
     --light-blue: #e9f9fd;
     --yellow: #ffd42f;
+    --light-yellow: #fefcef;
     --black: #000000;
+    --light-black: #454a4d;
     --brown: #985b10;
-    --purple: #daaadb;
+    --gray: #5a666e;
+    --blue: #63afbf;
+    --purple: #9955f2;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;

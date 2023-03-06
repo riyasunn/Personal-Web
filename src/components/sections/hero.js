@@ -19,10 +19,10 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--purple);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
-    font-weight: 400;
+    font-weight: 600;
 
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
@@ -30,19 +30,20 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: 5px;
-    color: var(--slate);
+    margin-top: 20px;
+    color: var(--gray);
     line-height: 0.9;
+    font-size: clamp(40px, 8vw, 60px);
   }
 
   p {
-    margin: 20px 0 0;
+    margin: 45px 0 0;
     max-width: 540px;
   }
 
-  .email-link {
+  .resume-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin-top: 55px;
   }
 `;
 
@@ -60,28 +61,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Riya Sun.</h2>;
+  const three = <h3 className="big-heading">A front-end JavaScript Developer.</h3>;
   const four = (
     <>
-      <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
-      </p>
+      <p>Currently, I'm focused on building website by React & JavaScript.</p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="resume-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      Resume
     </a>
   );
 

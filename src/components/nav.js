@@ -109,7 +109,10 @@ const StyledLinks = styled.div`
 
       a {
         padding: 10px;
-
+        &:hover,
+        &:focus {
+          color: var(--white);
+        }
         /* &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
