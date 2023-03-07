@@ -1,9 +1,9 @@
 import { css } from 'styled-components';
 
 const button = css`
-  color: var(--yellow);
+  color: var(--purple);
   background-color: transparent;
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--purple);
   border-radius: var(--border-radius);
   font-size: var(--fz-xs);
   font-family: var(--font-mono);
@@ -135,12 +135,9 @@ const mixins = {
   `,
 
   boxShadow: css`
-    box-shadow: 0 10px 30px -15px var(--navy-shadow);
-    transition: var(--transition);
-
     &:hover,
     &:focus {
-      box-shadow: 0 20px 30px -15px var(--navy-shadow);
+      box-shadow: rgba(255, 212, 47, 1) 0px 3px 19px 1px;
     }
   `,
 
@@ -170,3 +167,6 @@ const mixins = {
 };
 
 export default mixins;
+
+//  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+//     transition: var(--transition);

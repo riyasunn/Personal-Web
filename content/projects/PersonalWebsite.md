@@ -9,4 +9,4 @@ tech:
   - GraphQL
 ---
 
-A simple personal website built with Gatsby and Styled-components.
+A personal website built with Gatsby and Styled-components.

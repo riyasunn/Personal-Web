@@ -12,10 +12,6 @@ const StyledProjectsSection = styled.section`
   flex-direction: column;
   align-items: center;
 
-  h2 {
-    font-size: clamp(24px, 5vw, var(--fz-heading));
-  }
-
   .projects-grid {
     ${({ theme }) => theme.mixins.resetList};
     display: grid;
@@ -30,7 +26,7 @@ const StyledProjectsSection = styled.section`
   }
 
   .more-button {
-    ${({ theme }) => theme.mixins.button};
+    ${({ theme }) => theme.mixins.bigButton};
     margin: 80px auto 0;
   }
 `;
@@ -63,7 +59,8 @@ const StyledProject = styled.li`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: #fffccc;
+    /* background-color: var(--blue); */
     transition: var(--transition);
     overflow: auto;
   }
@@ -84,7 +81,7 @@ const StyledProject = styled.li`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--light-slate);
+      color: var(--purple);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -108,7 +105,7 @@ const StyledProject = styled.li`
 
   .project-title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--black);
     font-size: var(--fz-xxl);
 
     a {
@@ -128,7 +125,7 @@ const StyledProject = styled.li`
   }
 
   .project-description {
-    color: var(--light-slate);
+    color: var(--black);
     font-size: 17px;
 
     a {
@@ -206,12 +203,10 @@ const Projects = () => {
     const { github, external, title, tech } = frontmatter;
 
     return (
-      <div id="projects" className="project-inner">
+      <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder">
-              <Icon name="Folder" />
-            </div>
+            <div className="folder"></div>
             <div className="project-links">
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
@@ -254,8 +249,10 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection>
-      <h2 ref={revealTitle}>Projects</h2>
+    <StyledProjectsSection id="projects">
+      <h2 className="numbered-heading" ref={revealTitle}>
+        Projects
+      </h2>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
