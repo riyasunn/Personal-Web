@@ -47,7 +47,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: var(--brown);
+      color: var(--green);
       outline: 0;
     }
   `,

@@ -60,7 +60,6 @@ const StyledProject = styled.li`
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
     background-color: #fffccc;
-    /* background-color: var(--blue); */
     transition: var(--transition);
     overflow: auto;
   }
@@ -68,14 +67,7 @@ const StyledProject = styled.li`
   .project-top {
     ${({ theme }) => theme.mixins.flexBetween};
     margin-bottom: 35px;
-
-    .folder {
-      color: var(--green);
-      svg {
-        width: 40px;
-        height: 40px;
-      }
-    }
+    justify-content: flex-end;
 
     .project-links {
       display: flex;
@@ -206,7 +198,6 @@ const Projects = () => {
       <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder"></div>
             <div className="project-links">
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
