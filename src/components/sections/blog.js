@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -50,6 +50,7 @@ const StyledBlog = styled.li`
     .blog-title {
       margin-bottom: 15px;
       font-size: var(--fz-xxl);
+      font-weight: bold;
       &:hover,
       &:focus {
         color: var(--brown);
@@ -70,6 +71,7 @@ const Blog = () => {
             frontmatter {
               title
               date
+              slug
             }
             excerpt
           }
@@ -99,12 +101,14 @@ const Blog = () => {
 
   const blogInner = node => {
     const { frontmatter, excerpt } = node;
-    const { title } = frontmatter;
+    const { title, slug } = frontmatter;
     return (
       <div className="blog-inner">
         <div className="blog-img"></div>
         <div className="blog-right">
-          <h3 className="blog-title">{title}</h3>
+          <Link className="blog-title" to={`/blog/${slug}`}>
+            {title}
+          </Link>
           <div className="blog-excerpts">{excerpt}</div>
         </div>
       </div>
