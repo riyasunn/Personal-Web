@@ -1,7 +1,7 @@
 ---
 date: '2022-08-12'
 title: 'My understanding of the relationship between HTML, CSS, JavaScript and React'
-slug: 'my-understanding-of-the-relationship-between-HTML-CSS-JavaScript-and-React'
+slug: 'my-understanding-of-the-relationship-between-html-css-javascript-and-react'
 ---
 
 The top of the pyramid is built by adding building blocks from the bottom. Similarly, the basic layer of the front-end consists of HTML, CSS, and JavaScript.
