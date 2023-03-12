@@ -1,15 +1,32 @@
 ---
 date: '2023-02-03'
-title: 'Tools or tips I used for learning front-end'
-slug: 'tools-or-tips-i-used-for-learning-front-end'
+title: 'Tips I used for learning front-end effectively'
+slug: 'tips-i-used-for-learning-front-end-effectively'
 ---
 
-The top of the pyramid is built by adding building blocks from the bottom. Similarly, the basic layer of the front-end consists of HTML, CSS, and JavaScript.
-HTML determines the structure of the web page, just like a house contains a living room, bedroom, bathroom, etc.
-CSS determines the style of the web page, such as white kitchen walls and pink bedroom walls.
-The most amazing part is JavaScript. It can make the house fully functional, such as turning on the lights or boiling water through an outlet. Thus, JavaScript allows you to implement complex features on a website.
-After learning the basics mentioned above, you can already make a web page. However, if you want to enhance the user experience, you need to learn more.
-React is a JavaScript library built on top of JavaScript, which brings several advantages to web developers. For example, React is used to build single-page applications, which make websites faster and provide better user experiences. React can also create reusable UI components, allowing you to build a website like Lego blocks. React introduced JSX, which allows you to use HTML and JavaScript together.
-Furthermore, React itself is continuously evolving, from one-way data flow at the beginning to centralized state management, which makes it easier for developers to manage state (which will be discussed in the next blog).
-The purpose of technology development is to make things easier. As people become more accustomed to using reusable components, more CSS libraries like Styled-components are created. Styled-components are not only reusable but also allow you to write CSS in JavaScript.
-In conclusion, as time goes on, technology will continue to evolve rapidly, but they will all be developed based on HTML, CSS, and JavaScript.
+Front-end development is a rapidly growing field with various frameworks, libraries, and development tools. It can be overwhelming for beginners to know where to start. The following tips are the methods that I use to improve my front-end learning efficiency, and I hope they can be helpful for you as well.
+
+&nbsp;
+
+### **1. Make a plan**
+
+Before you start learning front-end knowledge, you need to understand what skills a front-end developer must have. You may ask where can I get this information? I suggest you to browser the roadmap website, here is the link for the website: [roadmap](https://roadmap.sh/frontend). You will see there are lots of new stuffs be waiting for us, so the next step is you need to make a plan, and don’t forget to give yourself a deadline, it will push your learning progress.
+
+&nbsp;
+
+### **2. How to learn?**
+
+As a beginner, it is hard to learn a new skill because you will face lots of difficulties and questions all the time, but don’t give up at this stage, because there are many ways to help you to solve your doubts. Please always remember that the problem you have en-countered must have been encountered by others. So, once you had any questions, you can google them. Normally if I learn a new thing, I will read the official document first and will also read some related blogs to help me deepen my understanding of what I’ve learned.
+
+However, only read documents sometimes make you feel knowledge can be forgotten easily; front-end developer skill also needs to be strengthened through continuous prac-tice. Keeping coding is another way to help you remember knowledge and you can code faster and faster.
+
+Meanwhile, review is also important. We can draw diagram to help us understanding what we learned, sometimes write a blog is also a good way for us to review knowledge.
+
+&nbsp;
+
+### **3. Suggestion study tools or websites:**
+
+- Notion: I use Notion app as my note book, I feel this app is very convivence to making reading notes.
+- CodePen: it is an online coding environment, if you have any ideas and you want to see result immediately, you can have a try in the CodePen.
+
+- github: you can find some good projects in the github, and have a look how other developer coding.
