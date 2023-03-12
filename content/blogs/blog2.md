@@ -4,12 +4,27 @@ title: 'Review how React-Redux manage state'
 slug: 'review-how-react-redux-manage-state'
 ---
 
-The top of the pyramid is built by adding building blocks from the bottom. Similarly, the basic layer of the front-end consists of HTML, CSS, and JavaScript.
-HTML determines the structure of the web page, just like a house contains a living room, bedroom, bathroom, etc.
-CSS determines the style of the web page, such as white kitchen walls and pink bedroom walls.
-The most amazing part is JavaScript. It can make the house fully functional, such as turning on the lights or boiling water through an outlet. Thus, JavaScript allows you to implement complex features on a website.
-After learning the basics mentioned above, you can already make a web page. However, if you want to enhance the user experience, you need to learn more.
-React is a JavaScript library built on top of JavaScript, which brings several advantages to web developers. For example, React is used to build single-page applications, which make websites faster and provide better user experiences. React can also create reusable UI components, allowing you to build a website like Lego blocks. React introduced JSX, which allows you to use HTML and JavaScript together.
-Furthermore, React itself is continuously evolving, from one-way data flow at the beginning to centralized state management, which makes it easier for developers to manage state (which will be discussed in the next blog).
-The purpose of technology development is to make things easier. As people become more accustomed to using reusable components, more CSS libraries like Styled-components are created. Styled-components are not only reusable but also allow you to write CSS in JavaScript.
-In conclusion, as time goes on, technology will continue to evolve rapidly, but they will all be developed based on HTML, CSS, and JavaScript.
+Redux is one of the most used libraries in state management for React applications, it helps us centralize data management.
+
+### **- What is state management?**
+
+State management allows multiple components to share data within the same application. Each component can read and modify the application state as required.
+
+### **- Why do we need to centrally manage data?**
+
+In a simple React app, it is easy to follow the "one-way data flow" rule. However, in a more complex app with many components located in different parts of the app, managing data can become difficult. It is much easier for developers to manage all the data if there is a place to store and update all the data, and all components can directly ac-cess the data.
+
+### **- Main components of Redux:**
+
+1. **Store**: an object that holds the entire state tree of your ap-plication;
+
+2. **Reducer**: a function that receives an action to update state and returns a new state;
+3. **Action**: an object that tells the reducer how to change the state. It contains a type and payload;
+
+4. **Selector**: a function that accepts the Redux store state as arguments and returns data based on that state.
+
+### **- How does Redux update state?**
+
+The process is shown in the following diagram:
+
+![diagram](../../src/images/Redux-manage-state.png)
