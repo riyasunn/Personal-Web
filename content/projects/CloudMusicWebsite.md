@@ -2,7 +2,7 @@
 date: '2023-01-01'
 title: 'Cloud Music Website'
 github: 'https://github.com/riyasunn/CLOUDMUSIC---PC-Web'
-external: 'a'
+external: 'https://sweet-swan-776acc.netlify.app/#/discover/recommend'
 tech:
   - React-redux
   - AntDesign

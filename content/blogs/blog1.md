@@ -19,4 +19,4 @@ Furthermore, React itself is continuously evolving, from one-way data flow at th
 
 The purpose of technology development is to make things easier. As people become more accustomed to using reusable components, more CSS libraries like Styled-components are created. Styled-components are not only reusable but also allow you to write CSS in JavaScript.
 
-In conclusion, as time goes on, technology will continue to evolve rapidly, but they will all be developed based on HTML, CSS, and JavaScript.
+In conclusion, as time goes on, technology will continue to evolve rapidly, but it will all be developed based on HTML, CSS, and JavaScript.

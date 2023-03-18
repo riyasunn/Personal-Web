@@ -98,7 +98,7 @@ const StyledSidebar = styled.aside`
     width: min(75vw, 400px);
     height: 100vh;
     outline: 0;
-    background-color: var(--pink);
+    background-color: #fffccc;
     box-shadow: -10px 0px 30px -15px var(--navy-shadow);
     z-index: 9;
     transform: translateX(${props => (props.menuOpen ? 0 : 100)}vw);
@@ -146,7 +146,7 @@ const StyledSidebar = styled.aside`
       padding: 3px 20px 20px;
       &:hover,
       &:focus {
-        color: var(--white);
+        color: var(--purple);
       }
     }
   }
