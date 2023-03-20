@@ -60,7 +60,7 @@ const About = () => {
     'Node.js',
     'GraphQL',
     'Firebase',
-    'Stripe',
+    'Jest',
     'Styled-components',
   ];
 

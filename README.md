@@ -6,7 +6,7 @@ This is a responsive static personal website using Gatsby, styled-components and
 
 ### Project online preview address
 
-preview address: <https://cool-kulfi-066511.netlify.app/>
+preview address: <https://riyasunn.com>
 
 ### Installation & Set up
 
