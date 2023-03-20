@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Riya Sun',
     description: 'Riya Sun is a front-end developer.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://cool-kulfi-066511.netlify.app', // No trailing slash allowed!
     image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
