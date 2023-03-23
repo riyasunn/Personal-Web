@@ -4,19 +4,14 @@ title: 'My understanding of the relationship between HTML, CSS, JavaScript and R
 slug: 'my-understanding-of-the-relationship-between-html-css-java-script-and-react'
 ---
 
-The top of the pyramid is built by adding building blocks from the bottom. Similarly, the basic layer of the front-end consists of HTML, CSS, and JavaScript.
+The top of the pyramid is built by adding building blocks from the bottom. Similarly, in modern web development, the foundation of front-end development is built upon three pillars: HTML, CSS, and JavaScript.
 
-HTML determines the structure of the web page, just like a house contains a living room, bedroom, bathroom, etc.
-CSS determines the style of the web page, such as white kitchen walls and pink bedroom walls.
+HTML provides the structure of a webpage, just like a house containing a living room, bedroom, bathroom, and so on. CSS determines the style of the web page, such as white kitchen walls and pink bedroom walls. The most amazing part is JavaScript, it adds functionality to the webpage, allowing it to respond dynamically to user interactions; to follow the example above, it can make the house fully functional, such as you can turn on the lights or boil water in this house.
 
-The most amazing part is JavaScript. It can make the house fully functional, such as turning on the lights or boiling water through an outlet. Thus, JavaScript allows you to implement complex features on a website.
+However, to enhance the user experience, additional knowledge is required, this is where React and JavaScript library comes in.
 
-After learning the basics mentioned above, you can already make a web page. However, if you want to enhance the user experience, you need to learn more.
+React brings several advantages to web developers. For example, React simplifies the development of single-page applications, which makes the website faster and provides better user experiences. React enables developers to create reusable UI components, which makes developers build a website as easy as playing with Lego blocks. JSX also introduced by React, allows developers to use HTML and JavaScript together.
 
-React is a JavaScript library built on top of JavaScript, which brings several advantages to web developers. For example, React is used to build single-page applications, which make websites faster and provide better user experiences. React can also create reusable UI components, allowing you to build a website like Lego blocks. React introduced JSX, which allows you to use HTML and JavaScript together.
+As React evolves, it continues to introduce new features, such as centralized state management, which simplifies the control of an application's state.
 
-Furthermore, React itself is continuously evolving, from one-way data flow at the beginning to centralized state management, which makes it easier for developers to manage state (which will be discussed in the next blog).
-
-The purpose of technology development is to make things easier. As people become more accustomed to using reusable components, more CSS libraries like Styled-components are created. Styled-components are not only reusable but also allow you to write CSS in JavaScript.
-
-In conclusion, as time goes on, technology will continue to evolve rapidly, but it will all be developed based on HTML, CSS, and JavaScript.
+In conclusion, the purpose of technology development is to make things easier, no matter how web technology evolves, HTML, CSS, and JavaScript will remain the fundamental building blocks of front-end development.
