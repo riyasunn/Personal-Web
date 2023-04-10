@@ -76,7 +76,7 @@ const About = () => {
               technologies.
             </p>
             <p>
-              Previously, I worked as an accounts assistant for around 4 years. However, I became
+              Previously, I worked as an accounts assistant for around 3 years. However, I became
               curious about web development and I am keen to learn how to build websites with great
               user experiences. In 2020, my family and I had a fantastic year as our first baby was
               born and during the COVID lockdowns, I decided to stay at home and take care of my
